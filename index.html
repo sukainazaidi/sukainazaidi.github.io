@@ -1,3 +1,6 @@
+<!-- Sukaina Zaidi
+09/28/25 -->
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,13 +8,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Sukaina Zaidi Resume</title>
   <link rel="stylesheet" href="css/styles.css">
-  <meta name="description" content="Resume of FULL NAME — UCF student.">
 </head>
 <body>
   <header class="site-header" role="banner">
     <div class="container header-grid">
       <div class="profile-photo" aria-hidden="false">
-        <img src="images/headshot.jpg">
+        <img src="images/headshot.jpg" alt="Headshot of Sukaina Zaidi">
       </div>
       <div class="heading">
         <h1>Sukaina Zaidi</h1>
@@ -19,12 +21,14 @@
           <a href="mailto:sukaina03@gmail.com">sukaina03@gmail.com</a> ·
           <a href="https://www.linkedin.com/in/sukaina-zaidi/" target="_blank" rel="noopener">LinkedIn</a>
         </p>
-        <p class="objective">Aspiring a career in software engineering, I hope to be at the convergence of technical proficiency coupled with a strong background in fine arts. My keen interests lie in the realms of data engineering, machine learning, and artificial intelligence. I am excited to embark on a journey of continuous growth and learning!</p>
+        <p class="objective">Aspiring a career in software engineering, I hope to be at the convergence of technical proficiency coupled with a strong background in fine arts. My keen interests lie in data engineering, machine learning, and artificial intelligence. I am excited to embark on a journey of continuous growth and learning!</p>
       </div>
     </div>
   </header>
 
   <main id="main" class="container" role="main">
+    
+    <!-- Education -->
     <section aria-labelledby="education">
       <h2 id="education">Education</h2>
       <p><strong>University of Central Florida</strong> — B.S. in Information Technology (May 2026)</p>
@@ -35,211 +39,109 @@
       </ul>
     </section>
 
+    <!-- Work Experience -->
     <section aria-labelledby="experience">
-        <h2 id="experience">Work Experience</h2>
+      <h2 id="experience">Work Experience</h2>
 
-        <article class="job">
-          <div class="job-header">
-            <div class="job-left">
-              <strong>GE Vernova — Advanced Technology Org</strong>
-            </div>
-            <div class="job-right">
-              June 2025 – Present
-            </div>
-          </div>
-          <div class="job-header">
-            <div class="job-left">
-              <em>AI/ML Intern</em>
-            </div>
-            <div class="job-right">
-              Remote
-            </div>
-          </div>
-          <ul>
-            <li>Implemented an interactive Folium map feature enabling users to draw weather event paths (storms, wildfires) for
-              Dispatcher training simulations, integrating an FCNN model to automatically generate outage scenarios.</li>
-            <li>Deployed GEV Data Fabric on Kubernetes using GitHub Actions with Docker and Helm, enabling repeatable
-              and reliable infrastructure provisioning.</li>
-            <li>Supported Data Fabric integration with AWS S3 ensuring streamlined data consumption to support ML model
-              training on AWS.</li>
-          </ul>
-        </article>
-        
+      <article class="job" aria-labelledby="ge-heading">
+        <h3 id="ge-heading">GE Vernova — AI/ML Intern</h3>
+        <p><strong>Location:</strong> Remote | <strong>Duration:</strong> June 2025 – Present</p>
+        <ul>
+          <li>Implemented an interactive Folium map feature enabling users to draw weather event paths for Dispatcher training simulations, integrating an FCNN model to automatically generate outage scenarios.</li>
+          <li>Deployed GEV Data Fabric on Kubernetes using GitHub Actions with Docker and Helm, enabling repeatable and reliable infrastructure provisioning.</li>
+          <li>Supported Data Fabric integration with AWS S3 to streamline data consumption for ML model training.</li>
+        </ul>
+      </article>
 
-        <article class="job">
-            <div class="job-header">
-              <div class="job-left">
-                <strong>NASA - Kennedy Space Center</strong>
-              </div>
-              <div class="job-right">
-                August 2024 – December 2024
-              </div>
-            </div>
-            <div class="job-header">
-              <div class="job-left">
-                <em>Software Engineer Intern</em>
-              </div>
-              <div class="job-right">
-                Cape Canaveral, FL
-              </div>
-            </div>
-            <ul>
-              <li>Leveraged Apache Velocity and Jama API to automate and validate data for Launch Control System software
-                requirements, reducing post test reporting time by a week.</li>
-              <li>Automated test reports by implementing sequence-based sorting and modularized template generation, enhancing
-                report clarity and accuracy for Artemis II mission requirements.</li>
-              <li>Mentored the Pink Team to develop students’ Java skills to program a robot for the FIRST Robotics Competition.</li>
-            </ul>
-          </article>
+      <article class="job" aria-labelledby="nasa-heading">
+        <h3 id="nasa-heading">NASA — Software Engineer Intern</h3>
+        <p><strong>Location:</strong> Cape Canaveral, FL | <strong>Duration:</strong> August 2024 – December 2024</p>
+        <ul>
+          <li>Leveraged Apache Velocity and Jama API to automate and validate data for Launch Control System software requirements, reducing post-test reporting time by a week.</li>
+          <li>Automated test reports by implementing sequence-based sorting and modularized template generation, enhancing report clarity and accuracy for Artemis II mission requirements.</li>
+          <li>Mentored the Pink Team to develop students’ Java skills to program a robot for the FIRST Robotics Competition.</li>
+        </ul>
+      </article>
 
+      <article class="job" aria-labelledby="abt-heading">
+        <h3 id="abt-heading">Abt Global — AI/ML Fellow</h3>
+        <p><strong>Location:</strong> Remote | <strong>Duration:</strong> August 2024 – December 2024</p>
+        <ul>
+          <li>Developed a data pre-processing pipeline to clean, standardize, and merge COVID-19 and weather datasets, creating a final dataset for modeling.</li>
+          <li>Created data visualizations (heatmaps, time series, pair plots) to illustrate feature relationships and trends.</li>
+          <li>Experimented with Scikit-learn ML models including Multiple Linear Regression, Random Forest, and Neural Networks to analyze case surges’ impact on hospital capacity and predict community case rates.</li>
+        </ul>
+      </article>
 
-          <article class="job">
-            <div class="job-header">
-              <div class="job-left">
-                <strong>Abt Global</strong>
-              </div>
-              <div class="job-right">
-                August 2024 – December 2024
-              </div>
-            </div>
-            <div class="job-header">
-              <div class="job-left">
-                <em>AI/ML Fellow</em>
-              </div>
-              <div class="job-right">
-                Remote
-              </div>
-            </div>
-            <ul>
-              <li>Developed a data pre-processing pipeline to clean, standardize, and merge COVID-19 and weather datasets by
-                transforming columns, filtering dates, and handling missing values, creating a final dataset.</li>
-              <li>Created data visualizations (heatmaps, time series, pair plots) to illustrate feature relationships and trends.</li>
-              <li>Experimented with Scikit-learn ML models, including Multiple Linear Regression, Random Forest, and
-                Neural Networks, to analyze case surges’ impact on hospital capacity and predict community case rates.</li>
-            </ul>
-          </article>
+      <article class="job" aria-labelledby="baptist-heading">
+        <h3 id="baptist-heading">Baptist Health South Florida — Data Platform Engineer Intern</h3>
+        <p><strong>Location:</strong> Coral Gables, FL | <strong>Duration:</strong> May 2024 – August 2024</p>
+        <ul>
+          <li>Developed a Streamlit tool using Snowflake Cortex with LLMs to enable natural language querying of Snowflake tables.</li>
+          <li>Created data quality checks for Snowflake Data Warehouse using PySpark, ensuring integrity via automated validations.</li>
+          <li>Automated migration of external tables to incremental/transient tables using DBT, enhancing query performance by 81.74%.</li>
+        </ul>
+      </article>
 
-          <article class="job">
-            <div class="job-header">
-              <div class="job-left">
-                <strong>Baptist Health South Florida</strong>
-              </div>
-              <div class="job-right">
-                May 2024 – August 2024
-              </div>
-            </div>
-            <div class="job-header">
-              <div class="job-left">
-                <em>Data Platform Engineer Intern</em>
-              </div>
-              <div class="job-right">
-                Coral Gables, FL
-              </div>
-            </div>
-            <ul>
-              <li>Developed Streamlit tool using Snowflake Cortex with LLMs to enable use of natural language to query
-                Snowflake tables.</li>
-              <li>Created data quality checks for Snowflake Data Warehouse using PySpark, ensuring data integrity through
-                automated freshness, column existence, row count, and hash row comparison validations.</li>
-              <li>Automated migration of external tables to incremental/transient tables by querying information schema to utilize
-                in Python script to generate CSV records for DBT incremental loads. Enhanced query performance by 81.74%.</li>
-            </ul>
-          </article>
-
-      
     </section>
 
+    <!-- Projects -->
     <section aria-labelledby="projects">
       <h2 id="projects">Projects</h2>
       <ul class="project-list">
-        <li>
-          <a href="project1.html">Project One — Uncovering Correlations Between Weather Conditions and COVID-19 Rates</a>
-      
-        </li>
-        <li>
-          <a href="project2.html">Project Two — Epileptic Seizure Prevention and Early Response (ESPER)</a>
-        </li>
+        <li><a href="project1.html">Project One — Uncovering Correlations Between Weather Conditions and COVID-19 Rates</a></li>
+        <li><a href="project2.html">Project Two — Epileptic Seizure Prevention and Early Response (ESPER)</a></li>
       </ul>
     </section>
 
+    <!-- Skills -->
     <section aria-labelledby="skills">
-        <h2 id="skills">Skills</h2>
-        
-        <article aria-labelledby="languages">
-          <h3 id="languages">Languages & Frameworks</h3>
-          <ul class="skills-grid">
-            <li>Python</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>SQL</li>
-            <li>HTML/CSS</li>
-            <li>LaTeX</li>
-            <li>Flask</li>
-            <li>Taipy</li>
-            <li>Streamlit</li>
-          </ul>
-        </article>
+      <h2 id="skills">Skills</h2>
       
-        <article aria-labelledby="tools">
-          <h3 id="tools">Tools</h3>
-          <ul class="skills-grid">
-            <li>MySQL</li>
-            <li>Google Cloud Platform</li>
-            <li>Jupyter Notebook</li>
-            <li>DBT</li>
-          </ul>
-        </article>
-      
-        <article aria-labelledby="libraries">
-          <h3 id="libraries">Libraries</h3>
-          <ul class="skills-grid">
-            <li>NumPy</li>
-            <li>Pandas</li>
-            <li>Matplotlib</li>
-            <li>OAuth</li>
-            <li>Folium</li>
-            <li>PySpark</li>
-            <li>TensorFlow/Keras</li>
-            <li>Scikit-learn</li>
-          </ul>
-        </article>
-      
-        <article aria-labelledby="devops">
-          <h3 id="devops">DevOps</h3>
-          <ul class="skills-grid">
-            <li>Git</li>
-            <li>CI/CD Pipelines</li>
-            <li>Docker</li>
-            <li>Airflow</li>
-            <li>Terraform</li>
-            <li>Kubernetes</li>
-            <li>Artifactory</li>
-          </ul>
-        </article>
-      </section>      
-    
+      <article aria-labelledby="languages">
+        <h3 id="languages">Languages & Frameworks</h3>
+        <ul class="skills-grid">
+          <li>Python</li><li>Java</li><li>C</li><li>SQL</li>
+          <li>HTML/CSS</li><li>LaTeX</li><li>Flask</li><li>Taipy</li><li>Streamlit</li>
+        </ul>
+      </article>
 
+      <article aria-labelledby="tools">
+        <h3 id="tools">Tools</h3>
+        <ul class="skills-grid">
+          <li>MySQL</li><li>Google Cloud Platform</li><li>Jupyter Notebook</li><li>DBT</li>
+        </ul>
+      </article>
+
+      <article aria-labelledby="libraries">
+        <h3 id="libraries">Libraries</h3>
+        <ul class="skills-grid">
+          <li>NumPy</li><li>Pandas</li><li>Matplotlib</li><li>OAuth</li>
+          <li>Folium</li><li>PySpark</li><li>TensorFlow/Keras</li><li>Scikit-learn</li>
+        </ul>
+      </article>
+
+      <article aria-labelledby="devops">
+        <h3 id="devops">DevOps</h3>
+        <ul class="skills-grid">
+          <li>Git</li><li>CI/CD Pipelines</li><li>Docker</li>
+          <li>Airflow</li><li>Terraform</li><li>Kubernetes</li><li>Artifactory</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Awards & Honors -->
     <section aria-labelledby="honors">
       <h2 id="honors">Awards &amp; Honors</h2>
       <ul>
         <li>Overall First Place @ INIT FIU ShellHacks 2024</li>
-        <li>First Place for Assurant @ ShellHacks 2024 </li>
+        <li>First Place for Assurant @ ShellHacks 2024</li>
         <li>Best Use of Hedera awarded @ ShellHacks 2023</li>
         <li>AP Scholar with Honor Award 2021</li>
         <li>Best Painting @ Congressional Art Show 2019</li>
       </ul>
     </section>
+
   </main>
-
-  <footer class="site-footer" role="contentinfo">
-    <div class="container">
-      <p>© <span id="year"></span> FULL NAME · <a href="https://github.com/yourusername">GitHub</a></p>
-    </div>
-  </footer>
-
-  <script>
-    // small script to keep copyright year current
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>
